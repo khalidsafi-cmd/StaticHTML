@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Kabul Royals Survery Form</h1>
+        <p id="description">Thank you for taking this survey, and helping us improve our services</p>
+    </header>
+
+    <form id="survey-form">
+      <fieldset>
+        <legend>Please Fill the survey below</legend>
+          <label for="name" id="name-label">Full Name: </label>
+            <input id="name" name="name" type="text" placeholder="Khalid Safi"required> 
+
+          <br>
+          <br>
+
+          <label for="email" id="email-label">Email: </label>
+            <input min=4 max = 20 id="email" type="email" placeholder="example@email.com" required>
+
+          <br>
+          <br>
+
+          <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" placeholder="21" max=102 min=10>
+
+          <br>
+          <br> 
+
+          <label for="gender">Gender: &nbsp; </label>
+          
+            <label for="male"> Male</label>
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="gender" name="gender" value="female">
+  
+      </fieldset>
+
+      <br>
+
+        <Label for="improvement">What are the parts that we could improve on?</label>
+    <br>
+      <select id="dropdown">
+        <option value="service" selected>Services</option>
+        <option value="logistics">Logistical Support</option>
+        <option value="location">Location</option>
+        <option value="employees">Employee Capacity</option>
+      </select>
+
+      <br>
+      <br>
+
+    
+    <label for="like">What did you like about Kabul Royals?</label>
+    <br>
+      <label for="service">Service</label>
+        <input type="checkbox" id="service" value="service">
+      <label for="food">Food</label>
+        <input type="checkbox" id="food" value="food">
+      <label for="event-management">Event Management</label>
+        <input type="checkbox" id="event-management" value="event-management">
+      <label for="logistic">Logistical Support</label>
+        <input type="checkbox" id="logistic" value="logistic">
+      
+    <br>
+    <br>
+    
+    <label for="comment">Any comments are welcome</label>
+    <br>
+      <textarea id="comment" name="comment" cols=30 rows=10></textarea>
+    <br>
+    <button id="submit" type="submit>">Submit</button>
+        
+
+
+    </form>
+  </body>
+</html>
+
