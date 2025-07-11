@@ -1,0 +1,22 @@
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+a:focus {
+  color: purple;
+  border: blue;
+}
+a:active {
+  color: darkred;
+}
+a:visited {
+  color: aqua;
+}
+
