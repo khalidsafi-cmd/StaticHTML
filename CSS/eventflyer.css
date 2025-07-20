@@ -2,6 +2,7 @@ body {
     width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    background-color: ;
 }
 
 header  {
@@ -15,9 +16,30 @@ hr {
 }
 
 section {
-    text-align: center;
-    padding-left: 155px;
-    display: inline-block;
+  text-align: center; 
+}
+
+.highlight {
+  display: inline-block;
+  margin: 1%;
+  vertical-align: top;
+  text-align: left; /* Optional: aligns text inside to the left */
 }
 
 
+footer {
+    text-align: center;
+}
+
+#wedding-image {
+    width: 25rem;
+    border-radius: 50px;
+}
+
+.mtop {
+    margin-top: 25px;
+}
+
+ul li{
+    margin-top: 3px;    
+}
