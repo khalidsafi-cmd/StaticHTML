@@ -1,6 +1,7 @@
 body {
       font-family: Arial, sans-serif;
       padding: 20px;
+      background-color: whitesmoke;
     }
     .invoice-box {
       border: 1px solid #000;
@@ -41,7 +42,7 @@ body {
 
     #bill {
       text-align: center;
-      background-color: antiquewhite;
+      background-color: burlywood;
       padding: 0%;
       margin: 0%;
       border: #000;
