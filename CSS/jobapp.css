@@ -5,8 +5,27 @@
 
 .container {
   width: 80vw;
-  background-color: whitesmoke;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 1%;
   margin: 0 auto 0 auto;
+  box-shadow: 1px 1px 3px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, textarea, button {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 input:focus, textarea:focus {
@@ -21,30 +40,47 @@ input:valid, select:valid, textarea:valid {
   border: green 3px solid;
 }
 
-button {
-  transition: background-color 1s ease, color 1s ease;
-}
-
-button:hover {
-  background-color: blue;
-  color: white;
-}
-
 textarea {
   display: block;
 }
 
+.radio-group input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #555;
+  border-radius: 50%;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
 .radio-group input[type="radio"]:checked {
-  border-color: red;
-  background-color: yellow;
-  box-shadow: 0px 0px 60px 1px blue;
+  border-color: green;
+  background-color: green;
+  box-shadow: 0px 0px 60px 1px rgba(90,255,0,25%);
 }
 
 
 .radio-group input[type="radio"]:checked + label {
-  color: blue;
+  color: rgb(8, 85, 8);
 }
 
 input:first-of-type {
   color: black;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease ;
+}
+
+.submit-btn:hover {
+  background-color: darkgreen;
+  transform: scale(1.01);
 }
