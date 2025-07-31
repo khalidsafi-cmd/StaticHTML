@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    display: block;
+    margin: 1em;
+    color: #140000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+    height: 1.5rem;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #00cc88;
+    font-size: 1.01rem;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+button:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
